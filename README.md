@@ -1,5 +1,5 @@
 # javascript-challange
-**UFO sightings
+**UFO sightings**
 
 ### User instructions ###
 1. Open .html file in your browser. 
