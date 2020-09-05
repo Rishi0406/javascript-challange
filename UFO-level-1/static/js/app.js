@@ -25,3 +25,13 @@ function filterTable() {
         });
     }
 };
+
+function defaultLoad() {
+    tableData.forEach((ufoSighted) => {
+        var row = tbody.append("tr");
+        Object.entries(ufoSighted).forEach(([key, value]) => {
+        var cell = row.append("td");
+        cell.text(value);
+        });
+    });
+};
